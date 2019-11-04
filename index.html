@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><!-- direction: left to right | https://www.w3schools.com/tags/att_global_dir.asp -->
+  <head>
+    <title>Trying to teach myself since I haven't paid attention this entire semester</title>
+	<!-- 
+		dab dab dab dab dab dab dab dab
+	-->
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/reset.css" media="all" />
+	<link rel="stylesheet" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="stylesheets/print.css" media="print" />
+  </head>
+  <body>
+  
+    <div class="container">
+	
+      <header>
+        <h1 ><img src="images/header.png" title="dEsPaCiTo" alt="dEsPaCiTo"><br/><br/>Super Subpar BUT Incredibly Original Website</h1> <!-- remake header at some point-->
+			<div class="navbar">
+			  <div class="dropdown"><!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+				  <button class="dropbtn" onclick="myFunction()">wvw
+					<i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-content" id="dropdown">
+					<a href="www.a.com">aaa</a>
+					<a href="www.b.com">bbb</a>
+					<a href="www.c.com">ccc</a>
+				  </div>
+			  </div>
+			  <a href="gallery.html">Gallery of PhrankenShops</a>
+			  <a href="index.html">Home</a>
+			</div>
+			<div class="navbarBurger">
+              <i class="fas fa-bars fa-2x" onclick="myXFunction()"></i>
+              <div class="navbarBurger-content" id="navbarBurger" >
+                <a href="index.html">Home</a>
+			    <a href=""></a>
+			    <a href=""></a>
+			    <a href=""></a>
+				<a href=""></a>
+              </div>
+            </div>
+	
+			<script>
+				/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+				function myFunction() {
+				  document.getElementById("dropdown").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var dropdown = document.getElementById("dropdown");
+					if (dropdown.classList.contains('show')) {
+					  dropdown.classList.remove('show');
+					}
+				  }
+				}
+				
+				/*Hamburger, toggle between hiding and showing the dropdown content*/
+				function myXFunction() {
+				  document.getElementById("navbarBurger").classList.toggle("showX");
+				}
+				
+				window.onclick = function(event){
+				  if(!event.target.matches('.fas fa-bars fa-2x')){
+					var dropdowns = document.getElementsById("navbarBurger");
+					var i;
+					for(i = 0; i < dropdowns.length; i++){
+						var openDropdown = dropdowns[i];
+						if(openDropdown.classList.contains('showX')){
+						  openDropdown.classList.remove('showX');
+						}
+					}
+				  }
+				}
+			</script>
+      </header>
+	  
+      <div class="cols clearfix">
+
+        <!-- Column 1 -->
+        <section class="col1">
+          <img class="img1" src="images/hjaash'lfdk.png" title="dab dab dab dab" alt="dab"/>
+         <div class="text-block">
+          <h4>aaaaaaaaaaa</h4>
+          <p> a cool little sentence that means nothing</p>
+		  </div>
+        </section>
+		
+		<!-- Column 2 -->
+        <section class="col2">
+          <img class="img2" src="images/sivenemp.png" title="yeet, yote, yoten, yeeted" alt="yeet"/>
+          <div class="text-block">
+          <h4>aaaaaaaaaaa</h4>
+          <p> a cool little sentence that means nothing</p>
+		  </div>
+        </section>
+		
+		<!-- Column 3 -->
+        <section class="col3">
+          <img class="img3" src="images/sans.png" title="bad time incoming" alt="bad time incoming"/>
+		  <div class="text-block">
+          <h4>aaaaaaaaaaa</h4>
+          <p> a cool little sentence that means nothing</p>
+		  </div>
+        </section>
+      </div>
+	  
+	  <div class="cols clearfix">
+
+        <!-- Column 1 -->
+        <section class="col1">
+          <img class="img1" src="images/obamanos.png" title="obamanos incoming" alt="exodia obliterate"/>
+         <div class="text-block">
+          <h4>aaaaaaaaaaa</h4>
+          <p> a cool little sentence that means nothing</p>
+		  </div>
+        </section>
+		
+		<!-- Column 2 -->
+        <section class="col2">
+          <img class="img2" src="images/r1.png" title="behold, the power of minion goggles" alt="he has minion goggles!"/>
+          <div class="text-block">
+          <h4>aaaaaaaaaaa</h4>
+          <p> a cool little sentence that means nothing</p>
+		  </div>
+        </section>
+		
+		<!-- Column 3 -->
+        <section class="col3">
+          <img class="img3" src="images/page2left.png" title="oopsy woopsy, i'm danny devito" alt="what did danny devito do?"/>
+		  <div class="text-block">
+          <h4>aaaaaaaaaaa</h4>
+          <p> a cool little sentence that means nothing</p>
+		  </div>
+        </section>
+      </div>
+
+      <div class="cols clearfix">
+	  
+        <section class="main-content">
+          <h2>ahahahshhshahah</h2>
+				<p>shshshshshhs</p>
+
+  				<p>asjkdfhlksajdh</p>
+
+  				<p></p>
+        </section>
+
+        <div class="sidebar">
+		  <!--info-box 1-->
+          <section class="sidebox-1">
+            <h4></h4>
+            <p></p>
+          </section><!--/info-box 1-->
+		  
+		  <!--info-box 2-->
+		  <section class="sidebox-2">
+            <h4></h4>
+            <p></p>
+          </section><!--/info-box 2-->
+        </div>
+		
+      </div><!--/cols clearfix-->
+	  
+	  
+    </div>
+	<footer>
+		<p></p>
+	</footer>
+  </body>
+</html>
